@@ -1,0 +1,21 @@
+{
+    "name": "recaptureio/magento_connector",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "Recapture Connector",
+    "authors": [
+        {
+            "name": "Recapture",
+            "email": "hello@recapture.io"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/code/local/Recapture/Connector", "app/code/local/Recapture/Connector"],
+            ["app/etc/modules/Recapture_Connector.xml", "app/etc/modules/Recapture_Connector.xml"]
+        ]
+    }
+}
