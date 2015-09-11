@@ -1,12 +1,12 @@
 {
-    "name": "recaptureio/magento_connector",
+    "name": "carvedcom/magento_recapture_connector",
     "type": "magento-module",
     "license": "OSL-3.0",
     "description": "Recapture Connector",
     "authors": [
         {
-            "name": "Recapture",
-            "email": "hello@recapture.io"
+            "name": "Carved Module",
+            "email": "david@adstreaminc.com"
         }
     ],
     "require": {
